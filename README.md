@@ -22,5 +22,6 @@ chmod u+x automate.sh
 ```
 
 <img src="./image/automate1.png" width=50% height=50%>
+...
 <img src="./image/automate2.png" width=50% height=50%>
 
