@@ -6,7 +6,7 @@ This repository include some tools that you might find helpful in CSC172 Data St
 
 ---
 
-## automate.sh
+## automate
 
 A bash file that help you automate the runtime testing process for different sorting algorithms in Lab5 of Spring 2023, It might be a different lab in other years. This script will save you tremendous time and effort in writing your lab report. If you are tired of running the java file from terminal 42 times (6 sorting algorithms and 7 input files with various of sizes) and having to use a timer to wait for 10 minutes before ending the program on a certain sorting method for timeout, you can use this script to automate the process.
 
@@ -24,3 +24,11 @@ chmod u+x automate.sh
 <img src="./image/automate1.png" width=50% height=50%>
 ...
 <img src="./image/automate2.png" width=50% height=50%>
+
+</br>
+
+---
+
+## DList
+
+A simple doubly linked list for Lab3 & Lab5. I find it to be easier to work with than the more complex Linked List provided by the course. You might find it to be useful in other labs as well for different years. Supports all the methods you will need in CSC172.
