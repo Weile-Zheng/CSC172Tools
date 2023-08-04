@@ -18,11 +18,11 @@ do
     do
         echo -e "\n${magenta}Testing ${j}Kints.txt${clear}"
         java Sorting ${j}Kints.txt $i
-        #10 minutes Time Constraint. 
+        #10 minutes Time Constraint. Since non of the programs up to 16K int will time out, this part is skipped. 
     done
    
     echo -e "\n${magenta}Testing 1MKints.txt${clear}"
-    timeout 5 java Sorting 1Mints.txt $i
+    timeout 5 java Sorting 1Mints.txt $i #Modify the 5 to your desired time. Most use 10 as on the instructions, unit in seconds
     exit_status=$?
 
     if [[ $exit_status -eq 124 ]]; then
